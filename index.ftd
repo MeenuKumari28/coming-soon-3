@@ -7,8 +7,7 @@ align-content: center
 cta-text: Subscribe
 cta-link: /
 
-Are you Ready to get something new from us. Then subscribe the news latter to
-get latest updates?
+Be the first to know when our new website is live
 
 -- lib.social-icon:
 social-list: $lib.icon-lists
