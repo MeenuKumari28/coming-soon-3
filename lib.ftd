@@ -3,15 +3,23 @@ caption title:
 body body:
 string cta-text:
 string cta-link:
+ftd.image-src logo:
 
 -- ds.column:
 width.fixed.px if { ftd.device != "mobile" }: 574
 spacing: $ds.spaces.vertical-gap.large
 inset if { ftd.device == "mobile" }: $ds.spaces.inset-wide.medium-zero
 
--- ds.heading-large: $coming-soon.title
+-- ftd.image:
+src: $coming-soon.logo
+width.fixed.px: 114
+anchor: parent
+top.px: -190
+
+-- ds.heading-hero: $coming-soon.title
 
 -- ds.copy-regular: $coming-soon.body
+width.fixed.px: 270
 align: center
 
 -- ds.row:
@@ -39,6 +47,7 @@ rounded: true
 -- ds.column:
 if: { ftd.device == "mobile" }
 spacing: $ds.spaces.horizontal-gap.small
+inset: $ds.spaces.inset-wide.medium-zero
 
 -- ftd.text-input:
 placeholder: Enter your email

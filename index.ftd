@@ -1,11 +1,11 @@
 -- ds.page: Coming Soon
 background.image: $assets.files.assets.background.jpg
-theme-switcher: true
 align-content: center
 
 -- lib.coming-soon: Coming Soon
 cta-text: Subscribe
 cta-link: /
+logo: $assets.files.assets.logo.svg
 
 Be the first to know when our new website is live
 
